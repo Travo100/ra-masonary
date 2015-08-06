@@ -34,6 +34,15 @@ body, html {
   font-size: 10px !important;
   min-width: 0 !important; }
 
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  font-size: 10px; }
+
 button[type="submit"], .state-button {
   border: 1px solid #d0021b;
   padding: 7px 0;
@@ -51,8 +60,59 @@ button[type="submit"], .state-button {
     background: #d0021b;
     color: #fff; }
 
-.hero-masonary h1 {
-  font-family: "Museo 100", sans-serif; }
+.hero-masonary {
+  font-family: "Museo 300", sans-serif; }
+  .hero-masonary .ra-banner {
+    text-align: center;
+    font-family: "Museo 100", sans-serif;
+    background: #064871;
+    color: #fff;
+    padding-top: 10rem;
+    padding-bottom: 10rem; }
+    .hero-masonary .ra-banner h1 {
+      font-size: 2.5rem;
+      line-height: 3.1rem; }
+    .hero-masonary .ra-banner h3 {
+      font-size: 1.65rem;
+      line-height: 2.7rem; }
+  .hero-masonary .ra-hero-masonary {
+    font-size: 2rem;
+    padding-top: 8rem; }
+    .hero-masonary .ra-hero-masonary .ra-row {
+      -o-column-width: 30rem;
+      -ms-column-width: 30rem;
+      -moz-column-width: 30rem;
+      -webkit-column-width: 30rem;
+      column-width: 30rem;
+      -o-column-gap: 3rem;
+      -ms-column-gap: 3rem;
+      -moz-column-gap: 3rem;
+      -webkit-column-gap: 3rem;
+      column-gap: 3rem; }
+    .hero-masonary .ra-hero-masonary .ra-item {
+      display: inline-block;
+      padding: .25rem;
+      width: 100%;
+      background: #666;
+      border: 1px solid #000;
+      margin: 2rem auto; }
+    .hero-masonary .ra-hero-masonary .ra-well {
+      position: relative;
+      display: block; }
+  @media (min-width: 768px) {
+    .hero-masonary .ra-banner h1 {
+      font-size: 4.5rem;
+      line-height: 5.8rem; }
+    .hero-masonary .ra-banner h3 {
+      font-size: 2rem;
+      line-height: 3rem; } }
+  @media (min-width: 992px) {
+    .hero-masonary .ra-banner h1 {
+      font-size: 5rem;
+      line-height: 6.2rem; }
+    .hero-masonary .ra-banner h3 {
+      font-size: 2.4rem;
+      line-height: 3.6rem; } }
 
 .hp-special-loader {
   font-size: 20px;

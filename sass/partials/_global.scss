@@ -5,6 +5,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+	font-size: 10px;
+}
+
 button[type="submit"], .state-button {
 	border: 1px solid $primary-red;
 	padding: 7px 0;

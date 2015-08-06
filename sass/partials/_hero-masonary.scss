@@ -1,5 +1,79 @@
+@mixin column-width($size) {
+	-o-column-width: $size;
+	-ms-column-width: $size;
+	-moz-column-width: $size;
+	-webkit-column-width: $size;
+	column-width: $size;
+}
+
+@mixin column-gap($size) {
+	-o-column-gap: $size;
+	-ms-column-gap: $size;
+	-moz-column-gap: $size;
+	-webkit-column-gap: $size;
+	column-gap: $size;
+}
+
 .hero-masonary{
-	h1 {
+	font-family: $museo-regular;
+	.ra-banner {
+		text-align: center;
 		font-family: $museo-light;
+		background: $quinary-blue;
+		color: $primary-white;
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+		h1 {
+			font-size: 2.5rem;
+			line-height: 3.1rem;
+		}
+		h3 {
+			font-size: 1.65rem;
+    	line-height: 2.7rem;
+		}
+	}
+	.ra-hero-masonary {
+		font-size: 2rem;
+		padding-top: 8rem;
+		.ra-row {
+			@include column-width(30rem);
+			@include column-gap(3rem);
+		}
+		.ra-item {
+			display: inline-block;
+			padding: .25rem;
+			width:  100%;
+			background: #666;
+			border: 1px solid #000;
+			margin: 2rem auto;
+		}
+		.ra-well {
+			position:relative;
+			display: block;
+		}
+	}
+	@media (min-width: 768px) {
+		.ra-banner {
+			h1 {
+				font-size: 4.5rem;
+				line-height: 5.8rem;
+			}
+			h3 {
+				font-size: 2rem;
+				line-height: 3rem;
+			}
+		}
+	}
+	@media (min-width: 992px) {
+		.ra-banner {
+			h1 {
+				font-size: 5rem;
+				line-height: 6.2rem;
+			}
+			h3 {
+				font-size: 2.4rem;
+				line-height: 3.6rem;
+			}
+		}
 	}
 }
