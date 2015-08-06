@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+button[type="submit"], .state-button {
+	border: 1px solid $primary-red;
+	padding: 7px 0;
+	text-align: center;
+	background: none;
+	font-size: 1.4rem;
+	line-height: 16px;
+	text-transform: uppercase;
+	font-family: $hero-light;
+	color: $primary-red;
+	transition: all 0.15s ease-in-out;
+    display: block;
+	&:hover {
+		border:1px solid $primary-red;
+		background: $primary-red;
+		color: $primary-white; 
+	}
+}

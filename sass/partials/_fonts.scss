@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Helvetica HERO Medium";
+  src: url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Md.eot");
+  src: url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Md.eot?#iefix") format("embedded-opentype"), url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Md.woff") format("woff"), url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Md.ttf") format("truetype"), url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Md.svg#HelveticaNeueLight") format("svg");
+}
+
+
+@font-face {
+  font-family: "Helvetica HERO Bold";
+  src: url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Bd.eot");
+  src: url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Bd.eot?#iefix") format("embedded-opentype"), url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Bd.woff") format("woff"), url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Bd.ttf") format("truetype"), url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Bd.svg#HelveticaNeueLight") format("svg");
+}
+
+@font-face {
+  font-family: "Helvetica HERO Light";
+  src: url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Lt.eot");
+  src: url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Lt.eot?#iefix") format("embedded-opentype"), 
+  url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Lt.woff") format("woff"), 
+  url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Lt.ttf") format("truetype"), 
+  url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/HelveticaNeuePro-Lt.svg#HelveticaNeueLight") format("svg");
+}
+
+@font-face {
+  font-family: "Museo 100";
+  src: url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/MuseoSans-100.eot");
+  src: url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/MuseoSans-100.eot?#iefix") format("embedded-opentype"), 
+  url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/MuseoSans-100.woff") format("woff"),
+  url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/MuseoSans-100.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Museo 300";
+  src: url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/MuseoSans-300.eot");
+  src: url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/MuseoSans-300.eot?#iefix") format("embedded-opentype"), 
+  url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/MuseoSans-300.woff") format("woff"),
+  url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/MuseoSans-300Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Museo 500";
+  src: url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/MuseoSans-500.eot");
+  src: url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/MuseoSans-500.eot?#iefix") format("embedded-opentype"), 
+  url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/MuseoSans-500.woff") format("woff"), 
+  url("https://5240e61fe753984391c5-ecc02ad49047bf9e3105e819e005f5ff.ssl.cf2.rackcdn.com/MuseoSans-500.ttf") format("truetype");
+}
+
+$hero-bold: "Helvetica HERO Bold", arial, sans-serif;
+$hero-regular: "Helvetica HERO Medium", arial, sans-serif;
+$hero-light: "Helvetica HERO Light", arial, sans-serif;
+$museo-light: "Museo 100", sans-serif;
+$museo-regular: "Museo 300", sans-serif;
+$museo-bold: "Museo 500", sans-serif;
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body,html {
+  padding: 0;
+  margin: 0;
+  font-size: 10px !important; //this is just cause of the other components right now
+  min-width: 0 !important; //this is cause the site is not responsive and has a set max-width
+}
