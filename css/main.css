@@ -79,26 +79,53 @@ button[type="submit"], .state-button {
     font-size: 2rem;
     padding-top: 8rem; }
     .hero-masonary .ra-hero-masonary .ra-row {
-      -o-column-width: 30rem;
-      -ms-column-width: 30rem;
-      -moz-column-width: 30rem;
-      -webkit-column-width: 30rem;
-      column-width: 30rem;
-      -o-column-gap: 3rem;
-      -ms-column-gap: 3rem;
-      -moz-column-gap: 3rem;
-      -webkit-column-gap: 3rem;
-      column-gap: 3rem; }
+      -o-column-width: 33rem;
+      -ms-column-width: 33rem;
+      -moz-column-width: 33rem;
+      -webkit-column-width: 33rem;
+      column-width: 33rem;
+      -o-column-gap: 7rem;
+      -ms-column-gap: 7rem;
+      -moz-column-gap: 7rem;
+      -webkit-column-gap: 7rem;
+      column-gap: 7rem; }
     .hero-masonary .ra-hero-masonary .ra-item {
       display: inline-block;
       padding: .25rem;
       width: 100%;
-      background: #666;
-      border: 1px solid #000;
       margin: 2rem auto; }
     .hero-masonary .ra-hero-masonary .ra-well {
       position: relative;
-      display: block; }
+      display: block;
+      max-width: 33rem;
+      margin-left: auto;
+      margin-right: auto;
+      color: #4f5c60; }
+      .hero-masonary .ra-hero-masonary .ra-well h3 {
+        font-family: "Museo 500", sans-serif;
+        line-height: 3rem;
+        font-size: 2.4rem; }
+      .hero-masonary .ra-hero-masonary .ra-well h4 {
+        font-family: "Museo 100", sans-serif;
+        font-size: 2rem; }
+      .hero-masonary .ra-hero-masonary .ra-well p {
+        font-size: 1.8rem;
+        line-height: 3.6rem; }
+      .hero-masonary .ra-hero-masonary .ra-well a {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        text-transform: uppercase;
+        color: #4b92b2; }
+        .hero-masonary .ra-hero-masonary .ra-well a:hover {
+          text-decoration: none;
+          color: #34667c; }
+      .hero-masonary .ra-hero-masonary .ra-well img, .hero-masonary .ra-hero-masonary .ra-well a {
+        display: inline-block; }
+      .hero-masonary .ra-hero-masonary .ra-well img {
+        margin-top: 3.5rem;
+        margin-bottom: 3.5rem;
+        max-width: 100%;
+        height: auto; }
   @media (min-width: 768px) {
     .hero-masonary .ra-banner h1 {
       font-size: 4.5rem;

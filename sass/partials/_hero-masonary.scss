@@ -36,20 +36,54 @@
 		font-size: 2rem;
 		padding-top: 8rem;
 		.ra-row {
-			@include column-width(30rem);
-			@include column-gap(3rem);
+			@include column-width(33rem);
+			@include column-gap(7rem);
 		}
 		.ra-item {
 			display: inline-block;
 			padding: .25rem;
 			width:  100%;
-			background: #666;
-			border: 1px solid #000;
 			margin: 2rem auto;
 		}
 		.ra-well {
 			position:relative;
 			display: block;
+			max-width: 33rem;
+			margin-left: auto;
+			margin-right: auto;
+			color: $secondary-gray;
+			h3 {
+				font-family: $museo-bold;
+				line-height: 3rem;
+				font-size: 2.4rem;
+			}
+			h4 {
+				font-family: $museo-light;
+				font-size: 2rem;
+			}
+			p {
+				font-size: 1.8rem;
+				line-height: 3.6rem;
+			}
+			a {
+				font-size: 1.5rem;
+				line-height: 1.8rem;
+				text-transform: uppercase;
+				color: $link-blue;
+				&:hover {
+					text-decoration: none;
+					color: darken($link-blue, 15);
+				}	
+			}
+			img, a {
+				display: inline-block;
+			}
+			img {
+				margin-top: 3.5rem;
+				margin-bottom: 3.5rem;
+				max-width: 100%;
+				height: auto;
+			}
 		}
 	}
 	@media (min-width: 768px) {
