@@ -1,0 +1,342 @@
+{
+	"stories": [
+		{
+			"isFeatured" : true,
+			"hasQuote" : true,
+			"video" : {
+				"hasVideo" : false,
+				"videoID" : ""
+			},
+			"social" : {
+				"hasSocial" : false,
+				"socialIcon" : ""
+			},
+			"thumbnail" : {
+				"hasThumbnail" : true,
+				"src" : "img/two-men-video.jpg"
+			},
+			"cta" : {
+				"hasCTA" : true,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "Raymond McPherson",
+			"subtitle" : "Murrieta, CA",
+			"text" : "I’m so happy with my energy efficient home improvement, now I’m installing a solar system with my remaining HERO Financing.",
+			"tags" : ["energy", "solar", "HERO"], 
+			"sortOrderDate" : "03/15/2015"
+		},
+		{
+			"isFeatured" : false, 
+			"hasQuote" : true,
+			"video" : {
+				"hasVideo" : false,
+				"videoID" : ""
+			},
+			"social" : {
+				"hasSocial" : false,
+				"socialIcon" : ""
+			},
+			"thumbnail" : {
+				"hasThumbnail" : false,
+				"src" : "img/two-men-video.jpg"
+			},
+			"cta" : {
+				"hasCTA" : true,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "Gerald and Sumru Vance",
+			"subtitle" : "Temecula, CA",
+			"text" : "To sum up our experience with HERO, it let us do something that we wanted to do and let us do it economically.",
+			"tags" : ["energy", "HERO"], 
+			"sortOrderDate" : "03/11/2015"
+		},
+		{
+			"isFeatured" : false,
+			"hasQuote" : true,
+			"video" : {
+				"hasVideo" : false,
+				 "videoID" : ""
+			},
+			"social" : {
+				"hasSocial" : false,
+				"socialIcon" : ""
+			},
+			"thumbnail" : {
+				"hasThumbnail" : true,
+				"src" : "img/charlotte-samples.jpg"
+			},
+			"cta" : {
+				"hasCTA" : true,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "Charlotte Samples",
+			"subtitle" : "Riverside, CA",
+			"text" : "My new air-conditioning system greatly improved my quality of life during the hot Southern California summer. There is not as much dust in the house and the air is cleaner and fresher. Sealing up the leaks really makes a difference.",
+			"tags" : ["energy", "HERO", "HVAC"], 
+			"sortOrderDate" : "02/11/2014"
+		},
+		{
+			"isFeatured" : true,
+			"hasQuote" : true,
+			"video" : {
+				"hasVideo" : false,
+				"videoID" : ""
+			},
+			"social" : {
+				"hasSocial" : false,
+				"socialIcon" : ""
+			},
+			"thumbnail" : {
+				"hasThumbnail" : false,
+				"src" : ""
+			},
+			"cta" : {
+				"hasCTA" : true,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "Adelina",
+			"subtitle" : "Bakersville, CA",
+			"text" : "With the Hero Program I was able to purchase and replace all the windows in my home. Being able to replace all windows made a difference in the appearance of my home. I live close to a hospital so all day I would hear sirens with the purchase of my new windows now I have peace and quiet (noise level is now contained and bearable)  I am hoping when I get my electric bill that I will see a savings because now my house is not as hot. Hero Program helped me feel safe and secure and have peace of mind in my home with all the locks and safety locks. Thank you for helping me make this investment to my home.",
+			"tags" : ["energy", "HERO", "HVAC"], 
+			"sortOrderDate" : "05/28/2015"
+		},
+		{
+			"isFeatured" : false,
+			"hasQuote" : true,
+			"video" : {
+				"hasVideo" : false,
+				"videoID" : ""
+			},
+			"social" : {
+				"hasSocial" : true,
+				"socialIcon" : "img/youtube-icon.png"
+			},
+			"thumbnail" : {
+				"hasThumbnail" : false,
+				"src" : ""
+			},
+			"cta" : {
+				"hasCTA" : false,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "Sandra Marin",
+			"subtitle" : "Menifee, CA",
+			"text" : "The HERO Program has lowered my monthly bills so much, now I’ll be able to achieve my goal to retire in 7 years!",
+			"tags" : ["energy", "HERO", "Bills"], 
+			"sortOrderDate" : "05/28/2015"
+		},
+		{
+			"isFeatured" : false,
+			"hasQuote" : true,
+			"video" : {
+				"hasVideo" : false,
+				"videoID" : ""
+			},
+			"social" : {
+				"hasSocial" : true,
+				"socialIcon" : "img/youtube-icon.png"
+			},
+			"thumbnail" : {
+				"hasThumbnail" : true,
+				"src" : "img/magaret-kuhn.jpg"
+			},
+			"cta" : {
+				"hasCTA" : false,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "Magaret Kuhn",
+			"subtitle" : "Eastvale, CA",
+			"text" : "The HERO Program has lowered my monthly bills so much, now I’ll be able to achieve my goal to retire in 7 years!",
+			"tags" : ["energy", "HERO", "Bills"], 
+			"sortOrderDate" : "05/28/2015"
+		},
+		{
+			"isFeatured" : false,
+			"hasQuote" : true,
+			"video" : {
+				"hasVideo" : false,
+				"videoID" : ""
+			},
+			"social" : {
+				"hasSocial" : true,
+				"socialIcon" : "img/youtube-icon.png"
+			},
+			"thumbnail" : {
+				"hasThumbnail" : true,
+				"src" : "img/baker-family.jpg"
+			},
+			"cta" : {
+				"hasCTA" : false,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "The Baker Family",
+			"subtitle" : "Temecula, CA",
+			"text" : "Even with the payment that we’re adding onto our property tax, we’re still coming out ahead. Just looking out in the future, I see power prices are going to have to go up. And this makes sense. We’re hedging against that with our own source of power here in our home. And the HERO Program helped make that possible.",
+			"tags" : ["energy", "HERO", "Tax"], 
+			"sortOrderDate" : "05/12/2015"
+		},
+		{
+			"isFeatured" : false,
+			"hasQuote" : true,
+			"video" : {
+				"hasVideo" : true,
+				"videoID" : "ezTfGmd-t3E"
+			},
+			"social" : {
+				"hasSocial" : true,
+				"socialIcon" : "img/facebook-icon.png"
+			},
+			"thumbnail" : {
+				"hasThumbnail" : true,
+				"src" : "img/betty-smith.jpg"
+			},
+			"cta" : {
+				"hasCTA" : false,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "Betty & Floyd Smith",
+			"subtitle" : "Temecula, CA",
+			"text" : "HERO is just a real hero to me, because they’ve helped me do something that I couldn’t do. I don’t think you ought to run and hide and cower because you’re getting older. I would definitely recommend HERO, absolutely. Make your house comfortable!",
+			"tags" : ["energy", "HERO", "Tax"], 
+			"sortOrderDate" : "05/12/2015"
+		},
+		{
+			"isFeatured" : false,
+			"hasQuote" : true,
+			"video" : {
+				"hasVideo" : false,
+				"videoID" : ""
+			},
+			"social" : {
+				"hasSocial" : false,
+				"socialIcon" : ""
+			},
+			"thumbnail" : {
+				"hasThumbnail" : true,
+				"src" : "img/roberta-tandy.jpg"
+			},
+			"cta" : {
+				"hasCTA" : false,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "Roberta Tandy",
+			"subtitle" : "Corona, CA",
+			"text" : "Thanks to HERO, the air quality in my home has improved so substantially, I no longer have to take allergy medication.",
+			"tags" : ["energy", "HERO", "Praise"], 
+			"sortOrderDate" : "02/12/2009"
+		},
+		{
+			"isFeatured" : false,
+			"hasQuote" : true,
+			"video" : {
+				"hasVideo" : false,
+				"videoID" : ""
+			},
+			"social" : {
+				"hasSocial" : false,
+				"socialIcon" : ""
+			},
+			"thumbnail" : {
+				"hasThumbnail" : true,
+				"src" : "img/ruben-contreas.jpg"
+			},
+			"cta" : {
+				"hasCTA" : true,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "Ruben Contreas",
+			"subtitle" : "Lake Elsinore, CA",
+			"text" : "My electric bills used to be in the $200s. Since the installation of my solar electric system, I don’t even have to worry about my electric bill anymore. I can save money and live comfortably.",
+			"tags" : ["energy", "HERO", "Electric"], 
+			"sortOrderDate" : "05/11/2014"
+		},
+		{
+			"isFeatured" : false,
+			"hasQuote" : false,
+			"video" : {
+				"hasVideo" : false,
+				"videoID" : ""
+			},
+			"social" : {
+				"hasSocial" : false,
+				"socialIcon" : ""
+			},
+			"thumbnail" : {
+				"hasThumbnail" : true,
+				"src" : "img/delany-family.jpg"
+			},
+			"cta" : {
+				"hasCTA" : false,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "The Delany Family",
+			"subtitle" : "San Marcos, CA",
+			"text" : "",
+			"tags" : ["energy", "HERO", "Electric"], 
+			"sortOrderDate" : "05/11/2014"
+		},
+		{
+			"isFeatured" : false,
+			"hasQuote" : true,
+			"video" : {
+				"hasVideo" : false,
+				"videoID" : ""
+			},
+			"social" : {
+				"hasSocial" : true,
+				"socialIcon" : "img/youtube-icon.png"
+			},
+			"thumbnail" : {
+				"hasThumbnail" : false,
+				"src" : "img/delany-family.jpg"
+			},
+			"cta" : {
+				"hasCTA" : false,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "Amanda",
+			"subtitle" : "Fresno, CA",
+			"text" : "Due to my spouse's limited income (Retired Military) and the fact that we had just purchased a home, we were denied the usual methods of financing. The HERO program gave us the opportunity to install Solar, which in turn will produce savings in Energy cost and provide us with the Tax Rebate.  All around a very positive experience.",
+			"tags" : ["energy", "HERO", "Electric"], 
+			"sortOrderDate" : "05/11/2014"
+		},
+		{
+			"isFeatured" : false,
+			"hasQuote" : true,
+			"video" : {
+				"hasVideo" : false,
+				"videoID" : ""
+			},
+			"social" : {
+				"hasSocial" : true,
+				"socialIcon" : "img/twitter-icon.png"
+			},
+			"thumbnail" : {
+				"hasThumbnail" : false,
+				"src" : "img/delany-family.jpg"
+			},
+			"cta" : {
+				"hasCTA" : false,
+				"text" : "Read More >",
+				"link" : "#"
+			},
+			"title" : "Amanda",
+			"subtitle" : "@amandabanana",
+			"text" : "I think the @HEROProgram is great. Looking forward to being a part of the green movement and saving money!",
+			"tags" : ["energy", "HERO", "Electric"], 
+			"sortOrderDate" : "05/11/2014"
+		}
+	]
+}

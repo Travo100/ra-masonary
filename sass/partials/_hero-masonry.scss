@@ -14,7 +14,7 @@
 	column-gap: $size;
 }
 
-.hero-masonary{
+.hero-masonry{
 	font-family: $museo-regular;
 	.ra-banner {
 		text-align: center;
@@ -32,7 +32,7 @@
     	line-height: 2.7rem;
 		}
 	}
-	.ra-hero-masonary {
+	.ra-hero-masonry {
 		font-size: 2rem;
 		padding-top: 8rem;
 		.ra-row {
@@ -52,21 +52,27 @@
 			margin-left: auto;
 			margin-right: auto;
 			color: $secondary-gray;
+			padding-bottom: 4.5rem;
+			border-bottom: 2px solid #e5eaed;
 			h3 {
 				font-family: $museo-bold;
 				line-height: 3rem;
 				font-size: 2.4rem;
+				margin-bottom: 0.5rem;
 			}
 			h4 {
 				font-family: $museo-light;
 				font-size: 2rem;
+				margin-top: 0;
+				margin-bottom: 3.5rem;
 			}
 			p {
 				font-size: 1.8rem;
 				line-height: 3.6rem;
 			}
 			a {
-				font-size: 1.5rem;
+				font-size: 1.4rem;
+				font-family: $museo-regular;
 				line-height: 1.8rem;
 				text-transform: uppercase;
 				color: $link-blue;
@@ -79,10 +85,42 @@
 				display: inline-block;
 			}
 			img {
-				margin-top: 3.5rem;
-				margin-bottom: 3.5rem;
 				max-width: 100%;
 				height: auto;
+				//hero tv borders
+			}
+			.ra-quote {
+				margin-top: 0;
+				margin-bottom: 3.5rem;
+			}
+			.ra-social-icon {
+				margin: 0;
+				padding: 0;
+				float: right;
+			}
+			.video-thumb, .thumb {
+				position: relative;
+				margin-bottom: 3.5rem;
+				.video-thumb-play-button {
+					width: 6.5rem;
+					height: 6.5rem;
+					overflow: auto;
+					margin: auto;
+					position: absolute;
+					top: 0;
+					left: 0;
+					bottom: 0;
+					right: 0;
+					border: 0;
+				}
+				img {
+					border: 1px solid $tertiary-gray;
+				}
+			}
+
+			.video-thumb:hover {
+				opacity: 0.8;
+				cursor: pointer;
 			}
 		}
 	}

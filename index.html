@@ -6,78 +6,40 @@
 <head>
   <meta-charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Masonary Layout</title>
+  <title>masonry Layout</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 <body ng-app="heroProgramApp">
-<div class="hero-masonary" ng-controller="masonaryController as masonaryCtrl">
+<div class="hero-masonry" ng-controller="masonryController as masonryCtrl">
   <section class="ra-banner">
     <div class="container">
       <h1>Proven. Secure. Recommended.</h1>
       <h3>9 out of 10 would recommend HERO financing to family or friends.<br>Stories of people using the HERO Program to change their life and home.</h3>
     </div>
   </section>
-  <section class="ra-hero-masonary">
+  <section class="ra-hero-masonry">
     <div class="container">
       <div class="ra-row">
-            <div class="ra-item">
-              <div class="ra-well"> 
-                <h3>Raymond McPherson</h3>
-                <h4>Murrieta, CA</h4>
-                <img src="img/two-men-video.jpg" />
-                <img src="img/red-quote.png" />
-                <p>I’m so happy with my energy efficient home improvement, now I’m installing a solar system with my remaining HERO Financing.</p>
-                <a href="#">Read More ></a>
-              </div>
+        <div class="ra-item" ng-repeat="story in masonryCtrl.stories">
+          <div class="ra-well"> 
+            <img ng-if="story.social.hasSocial" ng-src="{{story.social.socialIcon}}" class="ra-social-icon"/>
+            <h3 ng-bind="story.title"></h3>
+            <h4 ng-bind="story.subtitle"></h4>
+            <div class="video-thumb" ng-click="masonryCtrl.playVideo(story.video.videoID)" ng-if="story.video.hasVideo">
+              <img ng-src="{{story.thumbnail.src}}" />
+              <img src="img/play-button.png" class="video-thumb-play-button" />
             </div>
-          <div class="ra-item">
-                <div class="ra-well"> 
-                2 blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah
-                </div>
+            <div class="thumb" ng-if="story.thumbnail.hasThumbnail && !story.video.hasVideo">
+              <img ng-src="{{story.thumbnail.src}}" />
             </div>
-            <div class="ra-item">
-                <div class="ra-well"> 
-                3 blah blah blah blah blah blah blah blah h
-                </div>
-            </div>
-            <div class="ra-item">
-                <div class="ra-well">
-                blah blah blah blah 
-                </div>
-            </div>
-            <div class="ra-item">
-                <div class="ra-well"> 
-                  blah blah blah. The container inside the ra-item must be position:relative
-                </div>
-            </div>
-          <div class="ra-item">
-                <div class="ra-well"> 
-                blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah
-                </div>
-            </div>
-            <div class="ra-item">
-                <div class="ra-well">
-                blah blah blah blah blah blah blah blah h
-                </div>
-            </div>
-            <div class="ra-item">
-                <div class="ra-well"> 
-                blah blah blah blah
-                </div>
-            </div>
-            <div class="ra-item">
-                <div class="ra-well"> 
-                blah blah blah blah blah blah blah blah blah blah blah blah
-                </div>
-            </div>
-            <div class="ra-item">
-                <div class="ra-well"> 
-                  blah blah blah. The container inside the item must be position:relative
-                </div>
-            </div>
+            <img src="img/red-quote.png" ng-if="story.hasQuote" class="ra-quote" />
+            <p ng-bind="story.text"></p>
+            <a ng-if="story.cta.hasCTA" ng-href="story.cta.link" ng-href="story.cta.text">Read More ></a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
