@@ -6,7 +6,8 @@ var gulp = require('gulp'),
     ngAnnotate = require('gulp-ng-annotate'),
     sourcemaps = require('gulp-sourcemaps'),
     concat = require('gulp-concat'),
-    browserSync = require('browser-sync').create();
+    browserSync = require('browser-sync').create(),
+    plumber = require('gulp-plumber');
 
 gulp.task('sass', function() {
     return sass('sass/') 
@@ -27,6 +28,7 @@ gulp.task('css', function() {
 
 gulp.task('js', function(){
   return gulp.src('js/**/*.js')
+    .pipe(plumber())
     .pipe(sourcemaps.init())
     .pipe(jshint())
     .pipe(jshint.reporter('default'))

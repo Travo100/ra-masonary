@@ -54,7 +54,10 @@ button[type="submit"], .state-button {
   font-family: "Helvetica HERO Light", arial, sans-serif;
   color: #d0021b;
   transition: all 0.15s ease-in-out;
-  display: block; }
+  display: block;
+  margin: 0 auto;
+  max-width: 22rem;
+  width: 100%; }
   button[type="submit"]:hover, .state-button:hover {
     border: 1px solid #d0021b;
     background: #d0021b;
@@ -77,70 +80,56 @@ button[type="submit"], .state-button {
       line-height: 2.7rem; }
   .hero-masonry .ra-hero-masonry {
     font-size: 2rem;
-    padding-top: 8rem; }
-    .hero-masonry .ra-hero-masonry .ra-row {
-      -o-column-width: 33rem;
-      -ms-column-width: 33rem;
-      -moz-column-width: 33rem;
-      -webkit-column-width: 33rem;
-      column-width: 33rem;
-      -o-column-gap: 7rem;
-      -ms-column-gap: 7rem;
-      -moz-column-gap: 7rem;
-      -webkit-column-gap: 7rem;
-      column-gap: 7rem; }
+    padding-top: 8rem;
+    padding-bottom: 8rem; }
+    .hero-masonry .ra-hero-masonry .ra-grid {
+      margin: 0 auto; }
     .hero-masonry .ra-hero-masonry .ra-item {
-      display: inline-block;
-      padding: .25rem;
-      width: 100%;
-      margin: 2rem auto; }
-    .hero-masonry .ra-hero-masonry .ra-well {
-      position: relative;
-      display: block;
-      max-width: 33rem;
-      margin-left: auto;
-      margin-right: auto;
+      width: 300px;
       color: #4f5c60;
       padding-bottom: 4.5rem;
       border-bottom: 2px solid #e5eaed; }
-      .hero-masonry .ra-hero-masonry .ra-well h3 {
+      .hero-masonry .ra-hero-masonry .ra-item h3 {
         font-family: "Museo 500", sans-serif;
         line-height: 3rem;
         font-size: 2.4rem;
         margin-bottom: 0.5rem; }
-      .hero-masonry .ra-hero-masonry .ra-well h4 {
+      .hero-masonry .ra-hero-masonry .ra-item h4 {
         font-family: "Museo 100", sans-serif;
         font-size: 2rem;
         margin-top: 0;
         margin-bottom: 3.5rem; }
-      .hero-masonry .ra-hero-masonry .ra-well p {
+      .hero-masonry .ra-hero-masonry .ra-item p {
         font-size: 1.8rem;
         line-height: 3.6rem; }
-      .hero-masonry .ra-hero-masonry .ra-well a {
+      .hero-masonry .ra-hero-masonry .ra-item a {
         font-size: 1.4rem;
         font-family: "Museo 300", sans-serif;
         line-height: 1.8rem;
         text-transform: uppercase;
         color: #4b92b2; }
-        .hero-masonry .ra-hero-masonry .ra-well a:hover {
+        .hero-masonry .ra-hero-masonry .ra-item a:hover {
           text-decoration: none;
           color: #34667c; }
-      .hero-masonry .ra-hero-masonry .ra-well img, .hero-masonry .ra-hero-masonry .ra-well a {
-        display: inline-block; }
-      .hero-masonry .ra-hero-masonry .ra-well img {
-        max-width: 100%;
-        height: auto; }
-      .hero-masonry .ra-hero-masonry .ra-well .ra-quote {
+      .hero-masonry .ra-hero-masonry .ra-item img, .hero-masonry .ra-hero-masonry .ra-item a {
+        display: block; }
+      .hero-masonry .ra-hero-masonry .ra-item img {
+        width: 100%;
+        height: auto;
+        display: block; }
+      .hero-masonry .ra-hero-masonry .ra-item .ra-quote {
         margin-top: 0;
-        margin-bottom: 3.5rem; }
-      .hero-masonry .ra-hero-masonry .ra-well .ra-social-icon {
-        margin: 0;
+        margin-bottom: 3.5rem;
+        max-width: 18px; }
+      .hero-masonry .ra-hero-masonry .ra-item .ra-social-icon {
+        margin: -30px 0 0 0;
         padding: 0;
-        float: right; }
-      .hero-masonry .ra-hero-masonry .ra-well .video-thumb, .hero-masonry .ra-hero-masonry .ra-well .thumb {
+        float: right;
+        max-width: 40px; }
+      .hero-masonry .ra-hero-masonry .ra-item .video-thumb, .hero-masonry .ra-hero-masonry .ra-item .thumb {
         position: relative;
         margin-bottom: 3.5rem; }
-        .hero-masonry .ra-hero-masonry .ra-well .video-thumb .video-thumb-play-button, .hero-masonry .ra-hero-masonry .ra-well .thumb .video-thumb-play-button {
+        .hero-masonry .ra-hero-masonry .ra-item .video-thumb .video-thumb-play-button, .hero-masonry .ra-hero-masonry .ra-item .thumb .video-thumb-play-button {
           width: 6.5rem;
           height: 6.5rem;
           overflow: auto;
@@ -151,9 +140,9 @@ button[type="submit"], .state-button {
           bottom: 0;
           right: 0;
           border: 0; }
-        .hero-masonry .ra-hero-masonry .ra-well .video-thumb img, .hero-masonry .ra-hero-masonry .ra-well .thumb img {
+        .hero-masonry .ra-hero-masonry .ra-item .video-thumb img, .hero-masonry .ra-hero-masonry .ra-item .thumb img {
           border: 1px solid #F2F2F2; }
-      .hero-masonry .ra-hero-masonry .ra-well .video-thumb:hover {
+      .hero-masonry .ra-hero-masonry .ra-item .video-thumb:hover {
         opacity: 0.8;
         cursor: pointer; }
   @media (min-width: 768px) {

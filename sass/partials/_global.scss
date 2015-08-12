@@ -21,6 +21,9 @@ button[type="submit"], .state-button {
 	color: $primary-red;
 	transition: all 0.15s ease-in-out;
     display: block;
+    margin: 0 auto;
+    max-width: 22rem;
+    width: 100%;
 	&:hover {
 		border:1px solid $primary-red;
 		background: $primary-red;

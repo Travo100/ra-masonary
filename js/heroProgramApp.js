@@ -1,2 +1,2 @@
 angular
-	.module('heroProgramApp', ['youtube-embed']);
+	.module('heroProgramApp', ['masonry']);
