@@ -6,7 +6,7 @@ angular
     function masonryController(masonryFactory, $window, $scope) {
         var vm = this,
             counter = 1,
-            storiesNumber = 5,
+            storiesNumber = 3,
             storiesList = [];
             vm.stories = [];
             vm.playVideo = playVideo;
@@ -44,7 +44,6 @@ angular
         function showMoreStories() {
             ++counter;
             if (storiesList.length > storiesNumber * counter) {
-                //vm.stories = storiesList.slice(0, storiesNumber * counter);
                 vm.stories = storiesList.slice(0, storiesNumber * counter);
             } else {
                 vm.stories = storiesList.slice(0, storiesList.length + 1);
