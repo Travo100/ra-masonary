@@ -88,7 +88,8 @@ button[type="submit"], .state-button {
       width: 300px;
       color: #4f5c60;
       padding-bottom: 4.5rem;
-      border-bottom: 2px solid #e5eaed; }
+      border-bottom: 2px solid #e5eaed;
+      margin: 0 40px 60px; }
       .hero-masonry .ra-hero-masonry .ra-item h3 {
         font-family: "Museo 500", sans-serif;
         line-height: 3rem;
