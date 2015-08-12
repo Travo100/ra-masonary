@@ -1,5 +1,5 @@
-;(function() {
-	"use strict";
+(function() {
+
 
 	angular
 		.module("heroProgramApp")
@@ -8,9 +8,9 @@
 	function automaticShowMore() {
 		return {
 			restrict: "A",
-			link: function(scope) {
+			link: function(scope, elem, attrs) {
 				document.addEventListener("scroll", function(e) {
-					if (document.documentElement.clientHeight + document.body.scrollTop > document.body.scrollHeight * 0.90) {
+					if (document.documentElement.clientHeight + document.body.scrollTop > document.body.scrollHeight * 0.80) {
 						scope.$broadcast("scrollThreshold", e);
 					}
 				});

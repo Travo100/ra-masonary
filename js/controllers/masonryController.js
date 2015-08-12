@@ -29,12 +29,10 @@ angular
                 .then(function(response){
                     storiesList = response.data.stories;
                     if(response.data.stories.length < storiesNumber) {
-                        vm.stories = response.data.stories;
-                        console.log(response.data.stories.length);
+                        vm.stories = storiesList;
                     } else {
-                        vm.stories = response.data.stories.slice(0, storiesNumber);
+                        vm.stories = storiesList.slice(0, storiesNumber);
                         vm.showButton = true;
-                        console.log(response.data.stories.length);
                     }
                 }, function(response){  
                     console.log('error!', response);
@@ -46,10 +44,10 @@ angular
         function showMoreStories() {
             ++counter;
             if (storiesList.length > storiesNumber * counter) {
-                // vm.stories = storiesList.slice(0, storiesNumber * counter);
-                vm.stories.push(storiesList.slice(storiesNumber * (counter - 1), storiesNumber * counter));
+                //vm.stories = storiesList.slice(0, storiesNumber * counter);
+                vm.stories = storiesList.slice(0, storiesNumber * counter);
             } else {
-                vm.stories = storiesList.slice(0, storiesList.length);
+                vm.stories = storiesList.slice(0, storiesList.length + 1);
                 vm.showButton = false;
             }   
         }
@@ -66,5 +64,6 @@ angular
                 $scope.$apply();
             }
         });
+
     }
 })();

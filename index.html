@@ -6,9 +6,10 @@
 <head>
   <meta-charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>masonry Layout</title>
+  <title>Masonry Layout</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="favicon.ico" rel="icon" type="image/x-icon" />
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
@@ -22,14 +23,14 @@
   </section>
   <section class="ra-hero-masonry">
     <div class="container">
-      <div class="ra-grid" masonry='{ "transitionDuration" : "0.2s" , "itemSelector" : ".ra-item", "isFitWidth" : true}' >
-        <div class="ra-item" ng-repeat="story in masonryCtrl.stories | orderBy : ['-isFeatured', '-sortOrderDate']">
-            
+      <div class="ra-grid" masonry='{ "transitionDuration" : "0.4s" , "itemSelector" : ".ra-item", "isFitWidth" : true}'>
+        <!-- <div class="ra-item" masonry-tile  ng-repeat="story in masonryCtrl.stories | orderBy : ['-isFeatured', '-sortOrderDate']"> -->
+          <div class="ra-item" masonry-tile ng-repeat="story in masonryCtrl.stories">
             <h3 ng-bind="story.title"></h3>
             <img ng-if="story.social.hasSocial" ng-src="{{story.social.socialIcon}}" class="ra-social-icon"/>
             <h4 ng-bind="story.subtitle"></h4>
 
-            <div class="video-thumb" ng-click="main.playVideo(story.video.videoID)" ng-if="story.video.hasVideo">
+            <div class="video-thumb" ng-click="masonryCtrl.playVideo(story.video.videoID)" ng-if="story.video.hasVideo">
               <img ng-src="{{story.thumbnail.src}}" />
               <img ng-src="img/play-button.png" class="video-thumb-play-button" />
             </div>
@@ -47,7 +48,7 @@
 </div>
 <!-- scripts -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-<!-- <script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script> -->
+<script src="//imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 <!-- Include YT library and this directive -->
