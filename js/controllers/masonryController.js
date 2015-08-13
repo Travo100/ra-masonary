@@ -19,7 +19,7 @@ angular
             } else if ($window.innerWidth > 480 && $window.innerWidth < 992) {
                 return 8;
             } else {
-                return 3;
+                return 12;
             }
         }());
 
@@ -46,11 +46,13 @@ angular
         function showMoreStories() {
             ++counter;
             if (storiesList.length > storiesNumber * counter) {
-                // vm.stories = storiesList.slice(0, storiesNumber * counter);
-                vm.stories.push(storiesList.slice(storiesNumber * (counter - 1), storiesNumber * counter));
+                //vm.stories = storiesList.slice(0, storiesNumber * counter);
+                //vm.stories.push(storiesList.slice(storiesNumber * (counter - 1), storiesNumber * counter));
+                console.log('hit true');
             } else {
-                vm.stories = storiesList.slice(0, storiesList.length);
+                //vm.stories = storiesList.slice(0, storiesList.length+1);
                 vm.showButton = false;
+                console.log('hit false');
             }   
         }
 
