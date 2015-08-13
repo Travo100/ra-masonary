@@ -85,11 +85,11 @@ button[type="submit"], .state-button {
     .hero-masonry .ra-hero-masonry .ra-grid {
       margin: 0 auto; }
     .hero-masonry .ra-hero-masonry .ra-item {
-      width: 300px;
+      width: 275px;
       color: #4f5c60;
       padding-bottom: 4.5rem;
       border-bottom: 2px solid #e5eaed;
-      margin: 0 40px 60px; }
+      margin: 0 0 60px; }
       .hero-masonry .ra-hero-masonry .ra-item h3 {
         font-family: "Museo 500", sans-serif;
         line-height: 3rem;
@@ -146,6 +146,10 @@ button[type="submit"], .state-button {
       .hero-masonry .ra-hero-masonry .ra-item .video-thumb:hover {
         opacity: 0.8;
         cursor: pointer; }
+  @media (min-width: 480px) {
+    .hero-masonry .ra-hero-masonry .ra-item {
+      width: 300px;
+      margin: 0 15px 60px; } }
   @media (min-width: 768px) {
     .hero-masonry .ra-banner h1 {
       font-size: 4.5rem;
@@ -154,6 +158,9 @@ button[type="submit"], .state-button {
       font-size: 2rem;
       line-height: 3rem; } }
   @media (min-width: 992px) {
+    .hero-masonry .ra-hero-masonry .ra-item {
+      width: 300px;
+      margin: 0 40px 60px; }
     .hero-masonry .ra-banner h1 {
       font-size: 5rem;
       line-height: 6.2rem; }
