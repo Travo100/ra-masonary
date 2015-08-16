@@ -146,6 +146,16 @@ button[type="submit"], .state-button {
       .hero-masonry .ra-hero-masonry .ra-item .video-thumb:hover {
         opacity: 0.8;
         cursor: pointer; }
+      .hero-masonry .ra-hero-masonry .ra-item.ng-enter {
+        transition: opacity linear 0.5s;
+        opacity: 0; }
+      .hero-masonry .ra-hero-masonry .ra-item.ng-enter-active {
+        opacity: 1; }
+      .hero-masonry .ra-hero-masonry .ra-item.ng-enter-stagger {
+        transition-delay: 0.2s;
+        transition-duration: 0;
+        transition: opacity linear 0.5s;
+        opacity: 0; }
   @media (min-width: 480px) {
     .hero-masonry .ra-hero-masonry .ra-item {
       width: 300px;
@@ -179,7 +189,6 @@ button[type="submit"], .state-button {
   -webkit-animation: load4 1.3s infinite linear;
   animation: load4 1.3s infinite linear;
   -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
   transform: translateZ(0); }
 
 @-webkit-keyframes load4 {

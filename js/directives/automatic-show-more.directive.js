@@ -1,6 +1,4 @@
 (function() {
-
-
 	angular
 		.module("heroProgramApp")
 		.directive("automaticShowMore", automaticShowMore);
@@ -14,9 +12,7 @@
 						document.documentElement.clientHeight + document.body.scrollTop,
 						document.documentElement.clientHeight + document.documentElement.scrollTop
 					);
-					var scrollHeightThreshold = document.body.scrollHeight * 0.60;
-
-					console.log(scrollTop, scrollHeightThreshold);
+					var scrollHeightThreshold = document.body.scrollHeight * 0.90;
 
 					if (scrollTop > scrollHeightThreshold) {
 						scope.$broadcast("scrollThreshold", e);
