@@ -1,2 +1,2 @@
 angular
-	.module('heroProgramApp', ['masonry']);
+	.module('heroProgramApp', ['masonry', 'ngAnimate']);

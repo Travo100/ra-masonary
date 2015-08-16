@@ -7,6 +7,8 @@ angular
         var vm = this,
             counter = 1,
             storiesNumber = 3,
+            desktopWidth = 992,
+            tabletWidth = 480;
             storiesList = [];
             vm.stories = [];
             vm.playVideo = playVideo;
@@ -14,15 +16,16 @@ angular
             vm.showButton = false;
 
         storiesNumber = (function(){
-            if ($window.innerWidth > 992) {
+            if ($window.innerWidth > desktopWidth) {
                 return 12;
-            } else if ($window.innerWidth > 480 && $window.innerWidth < 992) {
+            } else if ($window.innerWidth > tabletWidth && $window.innerWidth < desktopWidth) {
                 return 8;
             } else {
                 return 3;
             }
         }());
 
+        // getAllStories gets all the stories from the masonryFactory.getStories endpoint
         function getAllStories() {
             masonryFactory
                 .getStories()
